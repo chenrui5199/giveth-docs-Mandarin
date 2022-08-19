@@ -3,7 +3,7 @@ id: givethioinstallation
 title: 安装用于本地开发的 Giveth.io
 ---
 
-import useBaseUrl from '@docusaurus/useBaseUrl'
+从“@docusaurus/useBaseUrl”导入 useBaseUrl
 
 本指南使用 Ubuntu 20.04 LTS 记录用于开发的本地设置和运行 Giveth.io 的步骤。
 
