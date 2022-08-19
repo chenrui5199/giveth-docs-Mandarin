@@ -1,13 +1,13 @@
 ---
 id: givethioinstallation
-title: Installing Giveth.io for Local development
+title: 安装用于本地开发的 Giveth.io
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl'
 
-This guide will document the steps to set up and run Giveth.io locally for the purposes of development.The setup process was documented using Ubuntu 20.04 LTS.
+本指南使用 Ubuntu 20.04 LTS 记录用于开发的本地设置和运行 Giveth.io 的步骤。
 
-**You'll need a couple prerequisites to get started.**
+**您需要几个先决条件才能开始。**
 
  - [Redis](https://redis.io/topics/quickstart)
  - [Postgres](https://www.postgresql.org/download)
