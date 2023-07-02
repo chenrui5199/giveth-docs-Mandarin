@@ -5,25 +5,27 @@ slug: /
 ---
 
 
-Giveth is a community focused on **Building the Future of Giving** using blockchain technology. Our intention is to support and reward the funding of public goods by creating open, transparent and free access to the revolutionary funding opportunities available within the Ethereum ecosystem. Check out our [Calendar](https://calendar.google.com/calendar/u/1?cid=Z2l2ZXRoZG90aW9AZ21haWwuY29t) and [Join Page](https://giveth.io/join) to get more involved.
+Giveth is building a culture and economy that rewards and empowers those who give. Our goal is to use web3 to radically transform how public goods are funded by helping nonprofits evolve out of systems that depend on sacrifice into ones that create win-win situations for everyone involved. Beginning with a free and direct crypto donation platform on Ethereum, we onboard for-good projects and support them so that they can eventually blossom into DAOs with their own regenerative economies, with Giveth itself becoming an impact investment hub for public goods.
+
+Currently with its fundraising platform, Giveth rewards donors directly through the GIVbacks program with GIV, which they can then stake to support projects and earn returns via GIVpower. Other recent and forthcoming radical innovations can be seen in the Giveth Roadmap below. Also visit our [calendar](https://calendar.google.com/calendar/u/1?cid=Z2l2ZXRoZG90aW9AZ21haWwuY29t) for meeting times and [Join Page](https://giveth.io/join) to get more involved.
 
 ## **Our Mission**
 **To build a culture of giving that rewards and empowers those who give - to projects, to society, and to the world.**
 
 ## **Our Vision**
 
-**Giving is effortless and people all around the world are rewarded for creating positive change.**
+**Giving is effortless, and people all around the world are rewarded for creating positive change.**
 
 ## **Our Values**
 
-**Giveth encourages Decentralization:**
+**Giveth encourages decentralization:**
 
 - Giveth offers innovative open-source solutions built on blockchain technology, which is inherently decentralized.
 - Giveth is pioneering and experimenting with decentralized governance and communication techniques and supporting their adoption by other communities.
 
 **Giveth promotes Altruism:**
 
-- Giveth is an open, non-hierarchical global initiative empowering social, environmental and humanistic impact projects with modern technologies.
+- Giveth is an open, non-hierarchical global initiative empowering social, environmental, and humanistic impact projects with modern technologies.
 - Giveth supports many like-minded initiatives that are adding value to the world without necessarily having a direct profit motive.
 - Giveth is building a self-sustaining giving economy that encourages and rewards altruistic intention.
 
@@ -35,6 +37,24 @@ Giveth is a community focused on **Building the Future of Giving** using blockch
 - Giveth proactively reaches out to similar initiatives which we see as potential collaborators, as opposed to competitors.
 
 ---
+## **Our Roadmap**
+Giveth supports for-good projects and public goods in a myriad of capacities, one only needs to look at our token economy (GIVeconomy) roadmap features:
+
+**[GIV](https://docs.giveth.io/whatisgiveth/givtoken/)** - A transferable ERC-20 token that lies at the heart of the Future of Giving.
+
+**[GIVbacks](https://giveth.io/givbacks)** - A donors rewards program that is the first step in the ambitious GIVeconomy leading projects to become regen economies. The GIVbacks program allows donors who contribute to verified projects to receive GIV in return. This feature flips the script on the concept of the tax deductible donation, creating a decentralized and borderless way of incentivizing donations. (LAUNCHED ✅ )
+
+**[GIVgarden](https://gardens.1hive.org/#/xdai/garden/0xb25f0ee2d26461e2b5b3d3ddafe197a0da677b98)** - A voting platform built by 1Hive where GIV token holders are able to propose and vote on how to use the Giveth community treasury, including funding external builders, sponsorships and public goods. (LAUNCHED ✅ )
+
+**[GIVpower](https://docs.giveth.io/giveconomy/givpower)** - A staking mechanism where donors can lock their GIV tokens for GIVpower and use them to boost and curate fundraising projects on the [Giveth.io](http://giveth.io) platform. Projects with more GIVpower are ranked higher and in turn, their donors are rewarded with more GIVbacks. (Q3 2022)
+
+**[GIVmatching](https://docs.giveth.io/givethMatchingPool)** - A matching program where top-ranked public goods and for-good projects on the [Giveth.io](http://giveth.io) fundraising platform will have the opportunity to have their donations matched via a collectively funded matching pool. (Q2 2023)
+
+**[GIVfi](https://docs.giveth.io/giveconomy/#givfi)** - A smart contract system for generating yield on idle donations. Utilizing unclaimed donations, Giveth earns a yield through low-risk yield bearing strategies. Projects are able to claim 100% of their donation, while the yield earned goes to funding the DAO and buying back GIV. (TBA)
+
+**[Gurves](https://docs.giveth.io/giveconomy/#gurves)** - Bonding curves collateralized by GIV that projects on Giveth can launch to evolve into DAOs with their own micro-economies. Gurves enable donors to invest GIV into their favorite projects and provide upside potential for entrepreneurs in the public goods space. Donors become investors, volunteers become shareholders with a voice, and Giveth becomes the Schelling point for impact investments. (TBA)
+
+---
 
 ## **What are the Giveth DApps?**
 
@@ -43,6 +63,8 @@ The Giveth Donation Applications (DApps) create bridges between for-good project
 **Giveth.io** has been designed to facilitate ease of use so that anyone can get involved. Creating an account is easy; donating to and creating projects can be done in minutes. Giveth is home to a wide range of philanthropic ventures and is widely recognized across the Ethereum ecosystem, so naturally it's a great place to get exposure for your mission!
 
 **Giveth TRACE** is our original DApp that has been continually evolving since 2017. It offers a robust system to allow project owners to define their funding objectives via [tiered donation entities](../dapps/entitiesAndRoles). Givers benefit from this extra layer through the ability to specify and trace the movement of their donations on the DApp. Giveth pioneered the first bridge between Ethereum networks and this is where it was built. We leverage a Mainnet and Rinkeby bridge to make managing, tracing and withdrawing funds easy and gas-less.
+
+**_Giveth TRACE has officially been deprecated. After 5 years of faithful service, Giveth and its platform, services and products have fully migrated to [Giveth.io](https://giveth.io). With the deprecation of the Rinkeby network and low user activity, the Giveth DAO decided to sunset its original dApp in Q3 of 2022. The code has and will forever be open-source, and you can find it in [Giveth's Github repositories](https://github.com/Giveth)._**
 
 ## **Why should I donate to a project on Giveth?**
 

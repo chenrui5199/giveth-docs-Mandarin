@@ -5,7 +5,9 @@ slug: dapps/projectVerification
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl'
 
-Giveth is making use of project verification to review a project’s legitimacy and to reward donors to those projects via the [GIVbacks program](https://docs.giveth.io/giveconomy/givbacks). Project owners can apply by directly from thier project page sfter signing in by clicking **VERIFY MY PROJECT**.
+Giveth is making use of project verification to review a project’s legitimacy and to reward donors to those projects via the [GIVbacks program](https://docs.giveth.io/giveconomy/givbacks). Project owners can apply directly from their project page after signing in by clicking **VERIFY YOUR PROJECT**.
+
+<img alt="Verify My Project" src={useBaseUrl('img/content/Verifymyproject.png')} />
 
 This document serves as a guide to understanding the Project Verification process, what information is needed to apply, as well as what qualifies/disqualifies a project for participation in the GIVbacks program.
 
@@ -20,12 +22,22 @@ This document serves as a guide to understanding the Project Verification proces
 
 ## Qualifying Measures for Project Verification
 
-The verification process will require some additional information about a project and the intended impact of the organization.
+Are you interested in getting your project verified on Giveth? The verification process will require some additional information about a project and the intended impact of the organization.
 
-Projects must submit their application forms at least one week before the start of a round in order to qualify for that round. Once approved, its status is updated on Giveth, and it is given a `Verified` badge on the Homepage and on the Projects Page. 
+**These are the top criteria we look for when verifying any project:**
+
+* Action and Impact: We want to see that your project has a track record of making a difference in the world. An idea cannot be verified, but what we CAN verify is action and impact!
+
+* Reputation: We need to know that your project has a following and support from the community. This includes having a strong social media presence, non-profit status, or someone who can vouch for your project. You should be able to show us that your project has some skin in the game.
+
+* Public Good: We're all about creating positive change in the world. If your project is focused on personal gain, it is not eligible for the GIVbacks program. We want to see that your project is oriented towards creating social benefit and improving some corner of the world somehow.
+
+So, if you're ready to make a difference and meet these criteria, let's get started!
+
+Projects must submit their application forms at least one week before the start of a round in order to qualify for that round. Once approved, its status is updated on Giveth, and it is given a `Verified badge` on the Homepage and on the Projects Page.
 
 **Verified badges will automatically expire after 3 months of project inactivity.
-Be sure to share your progress with the world by adding regular updates!** *Current project owners have until October 14th, 2022 to update projects*
+Be sure to share your progress with the world by adding regular updates!** 
 
 <img alt="GIVbacks Rounds Schedule" src={useBaseUrl('img/content/givBacksRounds.png')} />
 
@@ -46,8 +58,6 @@ Here is the information you will need to provide in the application:
 13. Confirm “Yes”: We will only accept new, external donations through Giveth, and we understand that if we are found to be recirculating our own funds through Giveth, this will be considered abuse of the system.
 14. Confirm “Yes”: We understand our donation data will be reviewed, and if it seems like in any way we are abusing the system, our donors will not receive GIVbacks, and we will lose our verified status.
 15. Our goal is to ensure there is no fraudulent use of GIVbacks. We will need to know what reputation is at stake for you and/or your project if you were to be found participating in malicious activity. *Please provide links to proof of reputation if available.
-
-If you are a project owner who would like to apply to receive a `Verified` badge, encourage more Givers and also give back to those who have helped you reach your goals, please [fill out this form](https://giveth.typeform.com/verification).
 
 ## Disqualifying Factors for the GIVbacks Program
 

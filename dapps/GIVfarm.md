@@ -4,6 +4,11 @@ title: GIVfarm
 slug: giveconomy/givfarm
 ---
 
+:::caution 
+[**On October 29, 2022, the GIVfarm was exploited on ETH Mainnet**](https://twitter.com/Givethio/status/1591431388271677440), all funds in the Mainnet farming contracts were drained and stolen. The Giveth Community voted subsequently to not restart any of the affected farms. Currently **most GIV liqudity farming programs have ended since**, with the exception of [GIVpower Staking :rocket:](./GIVpower.md#givfarm-apr), there are no plans to launch any new GIVfarm programs in the future. However there are still opportunities to **earn liquidity rewards through the [RegenFarm program](./regenfarms.md)**.
+
+ This documentation article will remain for historical reference.
+:::
 
 The GIVfarm launched on **December 24, 2021**. 3.5% of the total token supply, 35 Million GIV, has been allocated to the first GIVfarm round of 6 months, 65 million tokens are held in a multisig for future liquidity provision. Farms are available on either **Ethereum Mainnet (ETH)** or **Gnosis Chain** (formerly xDai Network). Any farms you stake tokens into will yield GIV rewards and add to your [GIVstream flowrate](https://docs.giveth.io/giveconomy/givstream) only for that corresponding chain. GIV reward distribution for the 6 pools available is as follows:
 
@@ -115,3 +120,26 @@ Here's the contract information:
 #### LP Token Addresses (Gnosis Chain (formerly xDai Network))
 - GIV/xDAI Honeyswap - 0xB7189A7Ea38FA31210A79fe282AEC5736Ad5fA57
 - GIV/WETH SushiSwap - 0x55FF0cef43F0DF88226E9D87D09fA036017F5586
+
+## GIVfarm Extension (Q3 2022)
+
+The GIVfarm was extended on August 19th, 2022 with most farms discontinued.
+
+Here's the farms that were included in this extension:
+
+
+| Farm | Duration in Weeks | GIV Per Week |
+| --- | --- | --- |
+| 80GIV/ETH Balancer on Mainnet | 12 | 75,000 |
+| GIVgardens/staking on xDai | 6.5 | 100,000 |
+
+#### Staking Contract Addresses (Mainnet)
+- Balancer v2 80GIV/ETH Pool - 0xc0dbDcA66a0636236fAbe1B3C16B1bD4C84bB1E1
+
+#### LP Token Addresses (Mainnet)
+- Balancer v2 - 0x7819f1532c49388106f7762328c51ee70edd134c
+
+#### Staking Contract Addresses (Gnosis Chain (formerly xDai Network))
+- GIV Staking - 0xD93d3bDBa18ebcB3317a57119ea44ed2Cf41C2F2
+
+We should also mention the Angel Vault launched on August 4th and will run for 26 weeks, you can find more details in the [Angel Vault documentation article](./angelVault.md).

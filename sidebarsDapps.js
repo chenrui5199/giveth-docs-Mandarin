@@ -19,7 +19,7 @@ module.exports = {
         label: 'Giveth.io',
         collapsed: true,
         link: {type: 'doc', id: 'givethIO'},
-        items: ['gettingStarted','crypto','createproject','listedUnlisted','projectVerification','projectdonating' ,{
+        items: ['gettingStarted','createproject','listedUnlisted','projectVerification', 'projectUpdates', 'projectdonating' ,{
            type: 'category',
            label: 'Wallets',
            items: ['torusUserGuide', 'torusonramp','importTorusMM', 'donatingmetamask'],
@@ -27,7 +27,7 @@ module.exports = {
           'troubleshooting','faq'],
        },{
         type: 'category',
-        label: 'Giveth TRACE',
+        label: 'Giveth TRACE (Deprecated)',
         link: {type: 'doc', id:'introTrace'},
         items: [ 'entitiesAndRoles','makeTraceableProject','leavingTraces', 'technicalWhitePaper', 'exchangeRates', 'traceContracts' ]
          },
@@ -47,7 +47,7 @@ module.exports = {
             link: {type: 'doc', id: 'givfarm'},
             items:['regenFarms', 'angelVault']
           }
-          , 'niceToken'
+          ,'givpower', 'niceToken', 'giverspfp', 'referral'
 ]
           }
         ]
@@ -62,7 +62,7 @@ module.exports = {
        items: ['givethioinstallation', 'testing-guidelines']
      }, {
        type: 'category',
-       label: "Giveth TRACE",
+       label: "Giveth TRACE (Deprecated)",
        items: ['TRACEinstallation','bridgeSecurity', 'developmentProcess']
      },
     {
@@ -72,6 +72,11 @@ module.exports = {
     }
   ]
    },
+   {
+    type: 'category',
+    label: "Security",
+    items: [ 'disclosure']
+  },
    //     {
    //     type : 'category',
    //     label : 'User Guides',
