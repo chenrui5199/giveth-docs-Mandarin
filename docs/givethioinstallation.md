@@ -7,7 +7,7 @@ title: 安装用于本地开发的 Giveth.io
 
 本指南使用 Ubuntu 20.04 LTS 记录用于开发的本地设置和运行 Giveth.io 的步骤。
 
-**您需要几个先决条件才能开始**
+**您需要几个前置条件才能开始**
 
  - [Redis](https://redis.io/topics/quickstart)
  - [Postgres](https://www.postgresql.org/download)
