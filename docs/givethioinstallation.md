@@ -7,21 +7,21 @@ title: 安装用于本地开发的 Giveth.io
 
 本指南使用 Ubuntu 20.04 LTS 记录用于开发的本地设置和运行 Giveth.io 的步骤。
 
-**您需要几个先决条件才能开始。**
+**您需要几个先决条件才能开始**
 
  - [Redis](https://redis.io/topics/quickstart)
  - [Postgres](https://www.postgresql.org/download)
  - Bash CLI
  - [Gatsby CLI](https://www.gatsbyjs.com/docs/reference/gatsby-cli/)
- - Configure NodeJS
+ - 配置 NodeJS
       * [For Linux](https://www.gatsbyjs.com/docs/how-to/local-development/gatsby-on-linux/)
      * [For Windows](https://www.gatsbyjs.com/docs/how-to/local-development/gatsby-on-windows/)
- - Your Favourite Code Editor (VScode for linting presets)
+ - 您喜欢的代码编辑器（VScode 用于代码检查预设）
 
-### Install impact-graph from GitHub
-In order to develop locally you need to clone the backend server as well. We are using https://github.com/Giveth/impact-graph for this.
+### 从 GitHub 安装 impact-graph
+为了进行本地开发，您需要克隆后端服务器。我们使用 https://github.com/Giveth/impact-graph 进行此操作。
 
-- via SSH on the CLI:
+- 在命令行界面使用 SSH：
     ```bash
     git clone git@github.com:Giveth/impact-graph.git
     cd impact-graph
@@ -30,8 +30,8 @@ In order to develop locally you need to clone the backend server as well. We are
     ```
 
 
-### Create a Database and User in Postgres using psql
-Follow this tutorial on PSQL to setup your username and create the database.
+### 在 Postgres 中创建数据库和用户
+按照 PSQL 的教程设置用户名并创建数据库。
 https://medium.com/coding-blocks/creating-user-database-and-adding-access-on-postgresql-8bfcd2f4a91e)
 
 **TL;DR**
@@ -41,49 +41,49 @@ postgres=# create database <databaseName>;
 postgres=# create user <userName> with encrypted password '<passwordHere>';
 postgres=# grant all privileges on database <databaseName> to <userName>;
 ```
-### Clone and Install the Frontend
-  Head on over to https://github.com/Giveth/giveth-2 and clone the repo.
-  - via the CLI:
+### 克隆并安装前端
+  前往 https://github.com/Giveth/giveth-2 并克隆存储库。
+  - 在命令行界面：
   ```bash
   git clone git@github.com:Giveth/giveth-2.git
   cd giveth-2
   npm i
   ```
 
-### Get the Environment Variables
- In order to run the local build for Giveth.io you'll need to ask for the environment variables. Head on over to our [Contributors Discord](https://discord.giveth.io) say Hi and get in touch with one of the developers.
+### 获取环境变量
+ 为了运行 Giveth.io 的本地构建，您需要获取环境变量。请前往我们的 [Contributors Discord](https://discord.giveth.io) 与开发人员联系。
 
-### Launch the Development Server and Environment
- Start up the `impact-graph` backend server and redis.
-  - Run redis by using the command `redis-server`
-  - From the impact-graph repo start with `npm start`
+### 启动开发服务器和环境
+ 启动 `impact-graph` 后端服务器和 Redis。 
+  - 使用命令 `redis-server` 启动 Redis
+  - 在 impact-graph 存储库中运行 `npm start`
 
- To take advantage of linting presets, please use **VSCODE**:
- * Select *File -> Open Workspace*
- * Navigate into the giveth-2 directory
- * Open the workspace file `giveth2-full-stack.code-workspace`
- * Install recommended extensions (Prettier and StandardJS plugins)
+ 为了使用代码检查预设，请使用 **VSCODE**:
+ * 选择 *File -> Open Workspace*
+ * 进入 giveth-2 目录
+ * 打开工作区文件 `giveth2-full-stack.code-workspace`
+ * 安装推荐的扩展插件（Prettier 和 StandardJS）
 
- Then fire up the local development server.
+ 然后启动本地开发服务器。
 
  ```bash
  gatsby develop
  ```
 
-### Start Editing!
+### 开始编辑！
 
-Open up the giveth2 repo on your code editor.
+在代码编辑器中打开 giveth2 存储库。
 
-Giveth.io is now running locally at `http://localhost:8000`!
+Giveth.io 现在本地运行在 `http://localhost:8000`!
 
 <img alt='Giveth Running Locally' src={useBaseUrl('img/content/givethlocalresized.png')} />
 
-You can also expiremnt with querying your data via GraphQL - you'll find it at this link here - `http://localhost:8000/___graphql`
-Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql).
+你还可以通过GraphQL实验查询你的数据 - 在这个链接中可以找到它 - `http://localhost:8000/___graphql`
+在 [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql) 中了解更多关于使用这个工具的信息。
 
-  Save your changes and the browser will update in real time!
+  保存更改，浏览器将实时更新！
 
-**Current Build Statuses**
+**当前构建状态**
 
 [master](https://v2.giveth.io)
 
